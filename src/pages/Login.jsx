@@ -103,7 +103,7 @@ function Login() {
         </form>
         <div className="mt-4 text-center">
           <button
-            className="text-teal-600 hover:underline text-sm"
+            className="text-red-800 hover:underline text-sm font-bold"
             onClick={() => setHelpVisible(!helpVisible)}
           >
             Need Help?
@@ -112,7 +112,7 @@ function Login() {
             <div className="mt-2 bg-gray-100 p-4 rounded-md text-sm text-gray-800 shadow">
               <p className="mb-2 font-bold">Login as:</p>
               <p>Admin - Email: admin@gmail.com | Password: admin</p>
-              <p>Employee - Email: abc1@gmail.com | Password: 12345678</p>
+              <p>Employee - Email: emp@gmail.com | Password: emp</p>
             </div>
           )}
         </div>
